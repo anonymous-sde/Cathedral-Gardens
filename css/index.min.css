@@ -2926,4 +2926,50 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   position: absolute;
   width: 100%;
 }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /*# sourceMappingURL=../sourcemaps/index.css.map */
+
+.about-wrapper {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.about-card {
+  display: flex;
+  width: 450px;
+  height: 350px;
+  margin-top: 200px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.7);
+  border-radius: 0px;
+  /* padding: 38px 0 0 110px; */
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-p {
+  font-size: 120%;
+  color: white;
+  max-width: 350px;
+}
